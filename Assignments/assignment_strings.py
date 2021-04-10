@@ -40,7 +40,7 @@ name_short = player[0]+". "+ player[player.find('Gullit'):]
 print(name_short)
 
 #5
-chant = len(first_name) * "{first_name}!"
+chant = len(first_name)*(first_name+'!')
 
 #6
 good_chant = print(chant[-1] != " ")
